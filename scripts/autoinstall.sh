@@ -7,7 +7,7 @@
 #      ./autoinstall.sh [[vm name]] [[vm size]] [[os]]
 # e.g. ./autoinstall.sh test-machine 40G 	iso/ubuntu22.04.live-server.iso
 
-os="$HOME/os"
+os="$HOME/hub/os"
 cloud="$os/cloud"
 
 [ ! -d "$cloud" ] && mkdir -p "$cloud"

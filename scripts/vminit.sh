@@ -14,7 +14,7 @@
 # $1 vm name, $2 vm size
 
 conf="conf/$1.sh"
-os="$HOME/os"
+os="$HOME/hub/os"
 scripts="$os/scripts"
 
 [ ! -d "$scripts" ] && mkdir $os/scripts

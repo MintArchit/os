@@ -1,6 +1,6 @@
 #!/bin/bash
 
-os="$HOME/os"
+os="$HOME/hub/os"
 
 export NEWT_COLORS='
 root=,black

@@ -11,6 +11,6 @@ args=(
 	-sandbox on
 )
 
-cmd="/home/juser0/os/scripts/qemuwin.sh "${args[@]}""
+cmd="$HOME/hub/os/scripts/qemuwin.sh "${args[@]}""
 
 eval $cmd $@

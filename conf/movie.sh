@@ -10,6 +10,6 @@ args=(
 	-sandbox on
 )
 
-cmd="/home/juser0/os/scripts/qemu.sh "${args[@]}""
+cmd="$HOME/hub/os/scripts/qemu.sh "${args[@]}""
 
 eval $cmd $@
