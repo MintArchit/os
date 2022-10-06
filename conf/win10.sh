@@ -1,7 +1,8 @@
 #!/bin/bash
 
+os="$HOME/ghub/os"
 args=(
-	/home/juser0/os/vm/win10.qcow2 
+	$os/vm/win10.qcow2 
 	-device usb-ehci,id=ehci 
 	-device usb-host,bus=ehci.0,vendorid=0x2109,productid=0x0715 
 	-name win10 
@@ -11,6 +12,6 @@ args=(
 	-sandbox on
 )
 
-cmd="$HOME/hub/os/scripts/qemuwin.sh "${args[@]}""
+cmd="$os/scripts/qemuwin.sh "${args[@]}""
 
 eval $cmd $@

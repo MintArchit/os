@@ -1,6 +1,6 @@
 #!/bin/bash
 
-os="$HOME/hub/os"
+os="$HOME/ghub/os"
 args=(
 	$os/vm/shopping.qcow2 
 	-device usb-ehci,id=ehci 
